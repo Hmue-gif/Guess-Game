@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    height: 100vh;
+
+}
+
+.container{
+    width: 540px;
+    height: 330px;
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.up-section{
+    margin: 28px 0;
+}
+
+.up-section h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.middle-section{
+    display: flex;
+    width: 540px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.ms{
+    display: flex;
+    width: 540px;
+    justify-content: center;
+}
+
+input[type="text"] {
+        width: 65px;
+        height: 50px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        color: purple;
+        border: 2px solid purple;
+        border-radius: 10px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    background: purple;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.last-section p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 2px;
+}
