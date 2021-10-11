@@ -3,7 +3,7 @@ var m1 = document.getElementById("mes-1");
 var m2 = document.getElementById("mes-2");
 var m3 = document.getElementById("mes-3");
 
-var ans = Math.floor(Math.random()*20)+1;
+var ans = Math.floor(Math.random()*50)+1;
 var no_of_guess = 0;
 var guess_number = [];
 
