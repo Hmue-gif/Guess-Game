@@ -10,8 +10,8 @@ var guess_number = [];
 function play(){
     var user_guess =document.getElementById("guess_value").value;
 
-    if(user_guess < 1 || user_guess > 20){
-        alert("Enter the number between 1 and 20")
+    if(user_guess < 1 || user_guess > 50){
+        alert("Enter the number between 1 and 50")
     }
     else{
         guess_number.push(user_guess);
